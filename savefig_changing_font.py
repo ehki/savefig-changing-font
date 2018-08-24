@@ -4,8 +4,10 @@ def savefig_changing_font(basename="out", fmt="pdf",
                   fontfamilies=["serif","serif","sans-serif"],
                   fontnames=["Times New Roman","Times New Roman","Arial"],
                   mathtexts=["cm","stix","stixsans"],
-                  abbreviations=["cm","times","arial"]):
+                  abbreviations=["cm","times","arial"],
+                  **args):
     default = plt.rcParams
+    savefig_options = dict(savefig_options, **args)
     for ff,fn,mt,ab in zip(fontfamilies,fontnames,mathtexts,abbreviations):
         plt.rcParams["font.family"] = ff
         plt.rcParams["font.sans-serif"] = fn
