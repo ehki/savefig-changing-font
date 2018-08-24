@@ -18,8 +18,8 @@ Simply replace plt.savefig with savefig_changing_font as follows:
 
  Then you can see following three files:
 
-![image with computer modern mathtext](https://github.com/ehki/savefig-changing-font/blob/master/out_cm.png?raw=true "out_cm.png")
+![image with computer modern mathtext](https://github.com/ehki/savefig-changing-font/blob/master/example/out_cm.png?raw=true "out_cm.png")
 
-![image with times new roman](https://github.com/ehki/savefig-changing-font/blob/master/out_times.png?raw=true "out_times.png")
+![image with times new roman](https://github.com/ehki/savefig-changing-font/blob/master/example/out_times.png?raw=true "out_times.png")
 
-![image with arial](https://github.com/ehki/savefig-changing-font/blob/master/out_arial.png?raw=true "out_arial.png")
+![image with arial](https://github.com/ehki/savefig-changing-font/blob/master/example/out_arial.png?raw=true "out_arial.png")
