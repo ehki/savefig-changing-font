@@ -23,5 +23,3 @@ Simply replace plt.savefig with savefig_changing_font as follows:
 ![image with times new roman](https://github.com/ehki/savefig-changing-font/blob/master/out_times.png?raw=true "out_times.png")
 
 ![image with arial](https://github.com/ehki/savefig-changing-font/blob/master/out_arial.png?raw=true "out_arial.png")
-
-See 
