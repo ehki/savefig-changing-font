@@ -6,7 +6,7 @@ Simply replace plt.savefig with savefig_changing_font as follows:
 
     $ python
     >>> import matplotlib.pyplot as plt
-    >>> from plot_changing_font import plot_chaging_font as savecf
+    >>> from savefig_changing_font import savefig_changing_font as savecf
     >>> x = [1,2,3,4,5]
     >>> y = [1,4,9,16,25]
     >>> plt.plot(x,y,"ro-")
